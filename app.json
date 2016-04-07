@@ -1,0 +1,15 @@
+{
+  "name": "HerokuTest",
+  "scripts": {
+    "postdeploy": "git --version"
+  },
+  "env": {
+    "test": "1"
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
